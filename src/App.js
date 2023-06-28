@@ -48,23 +48,6 @@ function App() {
     </li>
   );
 
-  /*const rollSuccessCounts = success.reduce(function (obj, roll) {
-    if (!obj[roll]) {
-      obj[roll] = 1;
-    } else {
-      obj[roll]++;
-    }
-
-    return obj;
-  }, {});
-
-  console.log(rollSuccessCounts);
-
-  const listSuccess = Object.entries(rollSuccessCounts).map(([key, count]) =>
-    <li>
-      {key}: {count}
-    </li>
-  );*/
 
   function showSuccessList() {
     setIsSuccessOpen((isSuccessOpen) => !isSuccessOpen);
