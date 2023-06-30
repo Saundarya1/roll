@@ -169,6 +169,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className='header'>ROLL</div>
 
       {currentStep === 1 &&
         <div>

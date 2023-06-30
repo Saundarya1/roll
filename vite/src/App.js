@@ -169,6 +169,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className='header'>ROLL</div>
 
       {currentStep === 1 &&
         <div>
@@ -226,10 +227,10 @@ function App() {
             {dices}
           </div>
           <div className='meh'>Trafienia</div>
-            <div className='plus-container'>
-              <input value={rule} onChange={handleRuleChange} className='success-rule-box' defaultValue={0}></input>
-              <div className='plus'>+</div>
-            </div>
+          <div className='plus-container'>
+            <input value={rule} onChange={handleRuleChange} className='success-rule-box' defaultValue={0}></input>
+            <div className='plus'>+</div>
+          </div>
           <button className='throw-btn' onClick={rollAgain}>Rzut</button>
         </div>
       }
