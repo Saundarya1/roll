@@ -6,7 +6,7 @@
 .header{
   font-size: 50px;
   font-weight: bolder;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .first-step-boxes {
@@ -17,7 +17,20 @@
   font-size: 25px;
 }
 
+.css-tj5bde-Svg{
+color: black;
+height: 30px;
+width: 30px;
+}
+
+.css-b62m3t-container{
+  border-style: solid;
+}
+
 .css-1jqq78o-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 1px;
   height: 80px;
   background-color: rgba(207, 207, 207, 0.986);
@@ -25,6 +38,7 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 50px;
   font-weight: bold;
+  border-style: solid;
 }
 
 .roll-amount-box {
@@ -59,10 +73,12 @@
 }
 
 .next-btn {
-  margin-top: 100px;
+  margin-top: 80px;
+  margin-bottom: 30px;
   width: 180px;
   height: 60px;
   font-size: 30px;
+  border-style: solid;
 }
 
 .result-box {
