@@ -167,6 +167,10 @@ function App() {
     console.log(success, dices, fail, rule)
   }
 
+  function isValue() {
+    return selectedDice !== null && dices !== null && rule !== null;
+  }
+
   return (
     <div className="App">
       <div className='header'>ROLL</div>
@@ -188,7 +192,7 @@ function App() {
               <div className='plus'>+</div>
             </div>
           </div>
-          <button onClick={handleFirstRoll} className='next-btn'>Idź dalej</button>
+          <button disabled={!isValue()} onClick={handleFirstRoll} className='next-btn'>Idź dalej</button>
         </div>
       }
 
